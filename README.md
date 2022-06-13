@@ -1,6 +1,11 @@
 # Make-HtmlMetaTags
 Quick &amp; dirty PowerShell script that I use to generate a relatively common set of HTML meta tags.
-# Get-Help Make-HtmlMetaTags -Full
+# Quick Start
+Make this script available to your current PowerShell session using the commands below
+```ps1
+
+```
+# Usage
 ```ps1
 
 NAME
