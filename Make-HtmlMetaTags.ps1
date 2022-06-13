@@ -1,4 +1,4 @@
-function MakeHtmlMetaTags
+function Make-HtmlMetaTags
 {
     [cmdletbinding()]
     Param(
