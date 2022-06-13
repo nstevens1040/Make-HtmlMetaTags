@@ -3,8 +3,10 @@ Quick &amp; dirty PowerShell script that I use to generate a relatively common s
 # Quick Start
 Make this script available to your current PowerShell session using the commands below
 ```ps1
-
-```
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
+iex (irm https://raw.githubusercontent.com/nstevens1040/Make-HtmlMetaTags/main/Make-HtmlMetaTags.ps1)
+```  
 # Usage
 ```ps1
 
